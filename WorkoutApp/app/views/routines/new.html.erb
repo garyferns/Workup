@@ -1,0 +1,29 @@
+<h1> New Routine</h1>
+
+<%= form_for(@routine) do |f| %>
+
+  <div class="field"><br />
+    <%= f.label :Routine_name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field"><br />
+    <%= f.label :exercise_name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="number_field"> <br />
+    <%= f.label :sets%>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="number_field"> <br />
+    <%= f.label :reps%>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>
